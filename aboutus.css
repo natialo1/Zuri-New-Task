@@ -1,0 +1,90 @@
+  /* ABOUTUSCSS */
+  #aboutus-header {
+	width: 90%;
+    margin: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	
+}
+main{
+    width: 90%;
+    margin: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.link a {
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(109, 103, 103);
+    font-size: larger;
+}
+.Section1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+/* font-size: larger; */
+    
+}
+.Section1 h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    /* color: rgb(255, 0, 0); */
+}
+#p1 {
+    
+    color:#dc3545; 
+    font-size: larger;
+}
+#p11 {
+    font-size: larger;
+}
+#line{
+    width: 25%;
+    margin-left: 8rem;
+    margin-top: -1rem;
+}
+#lady{
+    width: 400px;
+}
+.maleface{
+    position: absolute;
+    left: 27rem;
+    bottom: -7rem;
+}
+.wire{
+    left: 27rem;
+    bottom: -7rem;
+}
+#male{
+width: 300px;
+}
+.btn1{
+    background-color: #dc3545;
+    color: white;
+    padding: 15px 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    font-size: 22px;
+    margin-top: 3rem;
+}
+
+
+@media only screen and (max-width:600px) {
+
+    body {
+      background-color: rgb(239, 246, 248);
+    }
+    .navbar{
+    display:flex;
+    flex-direction: column;
+    }
