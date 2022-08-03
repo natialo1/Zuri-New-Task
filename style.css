@@ -11,13 +11,19 @@ header{
 }
 h1{
     padding: 10%;
+    
 }
+
 span{
     color: rgb(211, 39, 39);
 }
 p{
     font-size: larger;   
 }
+p #unlock{
+justify-content: space-around;
+}
+
 #button1{
     color: white;
     border:none;
@@ -57,7 +63,9 @@ main{
 text-align: center;
 }
 .By-Zuri-we{
-padding: 10em;
+    font-size: 22px;
+justify-content: space-around;
+padding-bottom: 8rem;
 }
 .By-Zuri{
     color:#dc3545;;
@@ -114,6 +122,7 @@ padding: 10em;
     }
     .main-header{
     display:inline-block;
+    margin: 50px;
     }
  .footer{
     display: inline-block;
@@ -127,4 +136,13 @@ padding: 10em;
     margin: 10px;
     padding: 20%;
 }
+h2{
+    display: flex;
+    justify-content: center;
+    
+    margin: 2px;
+    
+}
+}
+
 
