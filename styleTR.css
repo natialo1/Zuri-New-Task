@@ -184,62 +184,89 @@ background-position: 100% 35%;
 /* SECTION4  STYLE*/
 
 
-.sec4{
+.section4{
+padding-top: 2rem;
+padding-bottom: 2rem;
+    text-align: center;
+    background-color: #f5dfe0;
+    background-image: url("/images/Talent/rope.svg");
+    background-repeat: no-repeat;
+    background-position: 0%  70%;
+    background-size: 25%;
     
+    
+}
+.sec4card{
     display: flex;
-    gap: 20px ;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: center;
+    width: 80%;
+    flex-wrap: wrap;
     margin: auto;
-    width: 100%;
-    background-color:rgb(247, 240, 226);
-    justify-content: center;
-    padding: 10px 10px ;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    
+}
+.sec4card .card {
+    display: flex;
+    background-color: white;
+    /* border: solid red; */
+    width: 20%;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    margin-top: 1rem;
+    border-bottom-right-radius: 1.5rem;
     
 }
 
-.Our
+.card:hover{
+    background-color: black;
+    color: aliceblue;
 }
-.sec4 div {
-    text-align: center;
-    width: 18%;
-    height: 200px;
-    background-color: white;
-    border-bottom-right-radius: 10px;
-    font-weight: 500;
-    color: gray;
-    padding-top: 90px;
-    padding:  20px ;
-    
+
+.down{
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.card img{
+    width: %;
+}
+
+.sec4card .empty{
+    /* display: flex; */
+    /* border: solid red; */
+    width: 14%;
     
 }
+
 .sec4 div:hover{
     background-color: black;
     color: aliceblue;
 }
-.sec4 #btnH{
+ #btnH{
     color: white;
     background-color: #dc3545;
     padding: 10px;
     font-weight: 800;
     width: 200px;
-    height: 50px;
+    height: 40px;
     border-bottom-right-radius: 0.8em;
     border: none;
     margin-right: 20px;
+    /* padding-top: 4rem; */
 }
-.sec4 #btnJ{
+#btnJ{
     color: white;
     background-color: rgb(90, 79, 79);
     padding: 10px;
     font-weight: 800;
     width: 200px;
-    height: 50px;
+    height: 40px;
     border-bottom-right-radius: 0.8em;
     border: none;
     margin-right: 20px;
-
+    /* padding-top: 4rem; */
 }
 
 footer{
