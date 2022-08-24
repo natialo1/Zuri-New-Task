@@ -242,7 +242,29 @@ justify-content: space-between;
     width: 10rem;
 }
 
+.card55 {
+    display: flex;
+    gap: 20px;
+
 }
+.card55 img{
+    width: 30px;
+}
+ .card55 p{
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    border: solid white;
+    width: auto;
+    border-radius: 5rem;
+    padding: 10px;
+    font-size: x;
+    text-align: ;
+
+}
+
+
+
 
 @media only screen and (max-width:600px) {
 
