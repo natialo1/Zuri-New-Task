@@ -1,6 +1,6 @@
   /* ABOUTUSCSS */
 *{
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 
   #aboutus-header {
@@ -224,6 +224,7 @@ align-items: center;
 justify-content: space-between;
 
  }
+
  .text {
     text-align: left;
     max-width: 50%;
@@ -245,11 +246,13 @@ justify-content: space-between;
 .card55 {
     display: flex;
     gap: 20px;
+    padding-bottom: 50px;
 
 }
 .card55 img{
     width: 30px;
 }
+
  .card55 p{
     align-items: center;
     justify-content: center;
@@ -259,10 +262,25 @@ justify-content: space-between;
     border-radius: 5rem;
     padding: 10px;
     font-size: x;
-    text-align: ;
-
 }
 
+.section6  {
+    width: 100%;
+    padding: 50px;
+    font-size: large;
+    background-image: url('/images/aboutusimages/section6.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 130%;
+    background-size: 10rem;
+}
+.section6 p {
+    color: #e7332b;
+    margin-bottom: -20px;
+}
+.sec6card .card{
+    display: flex;
+    border: solid #e7332b;
+}
 
 
 
